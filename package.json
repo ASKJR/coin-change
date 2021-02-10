@@ -1,0 +1,17 @@
+{
+  "name": "teste-logica",
+  "version": "1.0.0",
+  "description": "desafio de logica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "logic",
+    "programming"
+  ],
+  "author": "Alberto Kato",
+  "license": "ISC"
+}

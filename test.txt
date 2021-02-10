@@ -1,0 +1,20 @@
+---Use Case Testing---
+
+--Exceções--
+1) A vending machine não tem moedas suficientes para devolver o troco.
+Entrada: (99.9, [0, 0, 0, 0, 0, 0]) OR (15.95,[20, 13, 2, 22, 1, 0])
+Esperado:  Expection -> Moedas não disponíveis para o troco.
+Status: PASSED
+
+
+2) Parâmetros incorretos na função.
+Entrada: ("error", 124)
+Esperado:  Expection-> Parâmetros inválidas. changeValue tem que ser do tipo number e availableCoins precisa ser um array.
+Status: PASSED
+
+
+--Main Flow--
+1) Flow principal.
+Entrada: (3.55, [20, 13, 2, 22, 1, 14])
+Esperado:  [ 0, 1, 0, 0, 1, 3 ].
+Status: PASSED
